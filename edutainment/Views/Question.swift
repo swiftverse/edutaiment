@@ -136,7 +136,7 @@ struct Question: View {
         else {
         }
     }
-    
+
     func askQuestion() {
         randomQuestion = quizButtons.prefix(4).randomElement()!
         ask = true
