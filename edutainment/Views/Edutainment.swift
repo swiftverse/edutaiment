@@ -10,7 +10,7 @@ import SwiftUI
 struct Edutainment: View {
     
     init() {
-         // UIScrollView.appearance().backgroundColor = UIColor.cyan
+        // UIScrollView.appearance().backgroundColor = UIColor.cyan
         UIScrollView.appearance().backgroundColor = .clear
     }
     
@@ -22,12 +22,6 @@ struct Edutainment: View {
     
     
     var body: some View {
-        
-        
-        
-        
-        
-        
         NavigationView {
             
             VStack {
@@ -62,23 +56,12 @@ struct Edutainment: View {
                                 Text("Start")
                             }
                         }
-                        
-                        
                     }
                 }
-                
-                
-                
             }
-            
-            
-            // .background(.orange)
-            
             .navigationTitle("Edutainment")
-            
-            
         }
-   }
+    }
 }
 
 struct Edutainment_Previews: PreviewProvider {
